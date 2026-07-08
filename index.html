@@ -1,30 +1,92 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="th">
 <head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Portfolio</title>
 
-    <title>Portfolio เบญจมาศ</title>
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background: linear-gradient(135deg,#ffd6e8,#d6f0ff,#e7d8ff);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+}
+
+.container{
+    width:420px;
+    background:rgba(255,255,255,0.95);
+    padding:40px;
+    border-radius:25px;
+    text-align:center;
+    box-shadow:0 10px 30px rgba(0,0,0,0.15);
+}
+
+h1{
+    color:#ff66a3;
+    margin-bottom:10px;
+    font-size:36px;
+}
+
+p{
+    color:#666;
+    margin-bottom:30px;
+}
+
+.menu a{
+    display:block;
+    text-decoration:none;
+    background:linear-gradient(45deg,#ff9ecf,#9fdcff);
+    color:white;
+    padding:15px;
+    margin:15px 0;
+    border-radius:50px;
+    font-size:18px;
+    font-weight:bold;
+    transition:.3s;
+    box-shadow:0 5px 12px rgba(0,0,0,0.15);
+}
+
+.menu a:hover{
+    transform:translateY(-5px) scale(1.03);
+    background:linear-gradient(45deg,#ff7eb9,#7fd8ff);
+}
+
+footer{
+    margin-top:25px;
+    color:#888;
+    font-size:14px;
+}
+</style>
 
 </head>
+<body>
 
-<body bgcolor="#FFECCB">
-<a href="index.html" >หน้าแรก</a>
-<a href="profile.html" >ประวัติส่วนตัว</a>
-<a href="education.html" >ประวัติการศึกษา</a>
-<a href="award.html" >ผลงาน</a>  
-<a href="contact.html" >ช่องทางการติดต่อ</a>    
-<img src="images/Screenshot 2026-06-15 140310.png">
+<div class="container">
 
-<h1>นางสาวเบญจมาศ บัลลัง</h1>
+    <h1>🌸 My Portfolio 🌸</h1>
+    <p>แฟ้มสะสมผลงานของฉัน</p>
 
-<p>นักเรียนชั้นม.6/1</p>
+    <div class="menu">
+        <a href="profile.html">👩 ประวัติส่วนตัว</a>
+        <a href="education.html">🎓 ประวัติการศึกษา</a>
+        <a href="award.html">🏆 ผลงาน</a>
+        <a href="contact.html">💌 ช่องทางการติดต่อ</a>
+    </div>
 
+    <footer>
+        💖 Welcome to My Portfolio 💖
+    </footer>
 
-<p>โรงเรียนพานทอง</p>
-
-
+</div>
 
 </body>
-
 </html>
